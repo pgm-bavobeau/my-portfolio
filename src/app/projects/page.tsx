@@ -16,7 +16,7 @@ export default async function Projects() {
         {
           projects && projects.map((project) => (
             <div key={project.id}>
-              <h2>{project.name}</h2>
+              <h2>{project.title}</h2>
             </div>
           ))
         }
